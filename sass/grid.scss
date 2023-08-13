@@ -1,0 +1,61 @@
+ .row{
+     max-width: 100rem;
+     display: flex;
+     background-color: white;
+
+     .col1-2{
+         width: calc((100%-4rem)/2);
+
+         &:not(:last-child){
+            margin-right: 3rem;
+         }   
+   }
+ }
+
+ .row-2{
+  max-width: 100rem;
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  background-color: lightgray;
+  margin-right: 8rem;
+  
+
+  .col1-4{
+      width: calc((100%-3 *4rem)/4);
+
+      &:not(:last-child){
+         margin-right: 4.5rem;
+      }   
+}
+}
+
+.row-3{
+   max-width: 100rem;
+   display: flex;
+   background-color: white;
+
+   .col1of2{
+       width: calc((100%-4rem)/2);
+
+       &:not(:last-child){
+          margin-right: 3rem;
+       }   
+ }
+}
+
+.row-4{
+   max-width: 100rem;
+   display: flex;
+    
+   margin-left: 13rem;
+
+
+   .col1of3{
+       width: calc((100%-2*4rem)/3);
+
+       &:not(:last-child){
+          margin-right: 1rem;
+       }   
+ }
+}

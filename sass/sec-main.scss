@@ -1,0 +1,102 @@
+.main{
+    height: 50rem;
+     
+
+
+    &-left{
+         
+        margin-top: 2rem;
+        height: 30rem;
+        margin-left: 4rem;
+         
+      &-text{
+           
+        transform: translateY(8rem);
+        margin-left: 3rem;
+          font-size: 2.5rem;
+          font-weight: 700;
+          border-bottom: 3px solid black;
+          width: 21rem;
+
+          &-2{
+            font-weight: 100;
+            font-family:emoji;
+          }
+      }
+      &-p{
+          margin-top: 8rem;
+          width: 29rem;
+          font-size: 1.2rem;
+          margin-left: 3rem;
+          position:absolute;
+      }
+
+      &-h3{
+          margin-top: 23rem;
+          display: flex;
+          margin-left: 2rem;
+          margin-bottom: -1rem;
+          font-weight: 100;
+           
+          &-1{
+            display: flex;
+            margin-left: 2rem;
+            margin-bottom: -1rem;
+            font-weight: 900;
+          }
+
+          &-2{
+            display: flex;
+            margin-left: 2rem;
+            font-weight: 900;
+  
+          }
+      }
+
+    }
+    
+    &-right{
+     position: relative;
+     margin-top: 9rem;
+      &-img-1{
+        height: 38rem;
+        width: 38rem;
+        position: absolute;
+        display: inline-block;
+        z-index: 10;
+      }
+ 
+      &-img-2{
+        height: 35rem;
+        position: absolute;
+        width: 30rem;
+        margin-top: -2rem;
+        margin-left: 4rem;
+        z-index: 20;
+      }
+
+      &-img-3{
+        position: absolute;
+        z-index: 30;
+        height: 20rem;
+        width: 17rem;
+        margin-left: 23rem;
+        margin-top: 14rem;
+      }
+
+ 
+    }
+}
+ 
+
+ 
+.checkbox-1{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 1rem;
+     
+    display: block;
+    border-radius: 50%;
+}
+
+ 

@@ -1,0 +1,42 @@
+.footer{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: rgba(26, 113, 243, 0.863);
+    height: 25rem;
+    color: white;
+
+    &-header{
+        text-transform: uppercase;
+        display: inline-block;
+        transform: translateY(4rem);
+        font-weight: 700;
+        border-bottom: 4px solid  lightgrey; 
+    }
+
+   &-img{
+    height: 5rem;
+    width: 6rem;
+    border-radius: 50%; 
+    }
+
+    &-para{
+         
+        width: 79rem;
+         margin-left:7rem;
+         font-size: 1.3rem;
+         margin-top: 6rem; 
+    }
+    &-img{
+        height: 4rem;
+    width: 5rem;
+    border-radius: 50%;
+    }
+    &-name{
+        font-size: 23px;
+    font-weight: 100;
+    margin-top: 0rem;
+    margin-bottom: 0;
+     }
+   }
+ 
+    
